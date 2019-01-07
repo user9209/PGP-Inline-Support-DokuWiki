@@ -7,7 +7,7 @@
  */
 
 // https://www.dokuwiki.org/devel:syntax_plugins
-class syntax_plugin_pgp_inline_support extends DokuWiki_Syntax_Plugin
+class syntax_plugin_pgpinlinesupport extends DokuWiki_Syntax_Plugin
 {
     
     // Kind of syntax
@@ -31,7 +31,7 @@ class syntax_plugin_pgp_inline_support extends DokuWiki_Syntax_Plugin
     // SHA3-Pattern
     function connectTo($mode)
     {
-        $this->Lexer->addSpecialPattern('-----BEGIN PGP MESSAGE-----[^-]+-----END PGP MESSAGE-----', $mode, 'plugin_pgp_inline_support');
+        $this->Lexer->addSpecialPattern('-----BEGIN PGP MESSAGE-----[^-]+-----END PGP MESSAGE-----', $mode, 'plugin_pgpinlinesupport');
     }
     
     // Trim Match

@@ -1,4 +1,4 @@
-base  pgp-inplace-support
+base pgpinlinesupport
 author Georg Schmidt
 email  gs-develop@gs-sys.de
 date   2019-01-07

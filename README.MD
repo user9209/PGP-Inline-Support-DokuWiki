@@ -4,7 +4,7 @@ PGP-Inline-Support for DokuWiki
 Install
 -------
 
-Install the plugin over the webfrontend by using the url:
+Install the plugin over the webfrontend by using the url:  
 https://github.com/user9209/PGP-Inline-Support-DokuWiki/archive/master.zip
 
 

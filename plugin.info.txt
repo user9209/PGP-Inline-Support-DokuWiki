@@ -1,0 +1,7 @@
+base  pgp-inplace-support
+author Georg Schmidt
+email  gs-develop@gs-sys.de
+date   2019-01-07
+name   PGP-Inline-Support
+desc   This plugin enables support of using inline pgp encryption.
+url    https://github.com/user9209/PGP-Inline-Support-DokuWiki/archive/master.zip

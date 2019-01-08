@@ -10,7 +10,7 @@ compatible : 2018-04-22b
 depends    : 
 conflicts  : unknown
 similar    : 
-tags       : pgp
+tags       : pgp mailvelope
 
 downloadurl: https://github.com/user9209/PGP-Inline-Support-DokuWiki/archive/master.zip
 bugtracker: https://github.com/user9209/PGP-Inline-Support-DokuWiki/issues

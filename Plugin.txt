@@ -33,11 +33,18 @@ Use Mailvelope (https://www.mailvelope.com):
   - Generate a Key-Pair
   - Add current tab to "Authorized Domain" (do NOT use API)
   - When editing a page press Mailvelope-Button and encrypt text
-  - Save page as normal
-  - See Mailvelope-Button on page
+  - Save page as normal  
+  - See Mailvelope-Button on page  
   - Press decrypt and enter your password
 
 Without this Plugin, step will 6 fail.
+
+=== Why should you use it? What does it fix? ===
+
+Video:
+[[https://drive.google.com/file/d/1rZtnmsJQc-rHFaluZAByUcLUutAvbXbM/view|{{https://github.com/user9209/PGP-Inline-Support-DokuWiki/raw/master/preview.png?200%}}]]
+
+
 
 === Change Log ===
 

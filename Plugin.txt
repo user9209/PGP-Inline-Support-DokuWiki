@@ -41,7 +41,7 @@ Without this Plugin, step will 6 fail.
 
 === Change Log ===
 
-  * **2009-01-07**
+  * **2019-01-07**
     * Initial release
 
 === Known Bugs and Issues ===

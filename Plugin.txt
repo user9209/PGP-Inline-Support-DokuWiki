@@ -1,0 +1,49 @@
+====== PGP-Inline-Support Plugin (pgpinlinesupport) ======
+
+---- plugin ----
+description: This plugin enables support of using inline pgp encryption.
+author     : Georg Schmidt
+email      : gs-develop@gs-sys.de
+type       : syntax
+lastupdate : 2019-01-07
+compatible : 2018-04-22b
+depends    : 
+conflicts  : unknown
+similar    : 
+tags       : pgp
+
+downloadurl: https://github.com/user9209/PGP-Inline-Support-DokuWiki/archive/master.zip
+bugtracker: https://github.com/user9209/PGP-Inline-Support-DokuWiki/issues
+sourcerepo: https://github.com/user9209/PGP-Inline-Support-DokuWiki/
+donationurl: 
+
+screenshot_img : https://github.com/user9209/PGP-Inline-Support-DokuWiki/raw/master/preview.png
+----
+
+===== Installation =====
+
+Install the plugin over the webfrontend by using the url:
+
+https://github.com/user9209/PGP-Inline-Support-DokuWiki/archive/master.zip
+
+===== How to use =====
+
+Use Mailvelope (https://www.mailvelope.com):
+
+  - Generate a Key-Pair
+  - Add current tab to "Authorized Domain" (do NOT use API)
+  - When editing a page press Mailvelope-Button and encrypt text
+  - Save page as normal
+  - See Mailvelope-Button on page
+  - Press decrypt and enter your password
+
+Without this Plugin, step will 6 fail.
+
+=== Change Log ===
+
+  * **2009-01-07**
+    * Initial release
+
+=== Known Bugs and Issues ===
+
+  * not yet known

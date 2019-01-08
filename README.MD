@@ -33,3 +33,8 @@ Tested
 ------
 
 Dokuwiki Version: 2018-04-22b
+
+Video
+------
+
+[![](preview.png)](https://drive.google.com/open?id=1rZtnmsJQc-rHFaluZAByUcLUutAvbXbM)

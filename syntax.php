@@ -31,7 +31,8 @@ class syntax_plugin_pgpinlinesupport extends DokuWiki_Syntax_Plugin
     function connectTo($mode)
     {
         $this->Lexer->addSpecialPattern('-----BEGIN PGP MESSAGE-----[^-]+-----END PGP MESSAGE-----', $mode, 'plugin_pgpinlinesupport');
-        $this->Lexer->addSpecialPattern('-----BEGIN PGP SIGNED MESSAGE-----[^-]+-----END PGP SIGNATURE-----', $mode, 'plugin_pgpinlinesupport');
+        $this->Lexer->addSpecialPattern('-----BEGIN PGP SIGNED MESSAGE-----[^-]+-----BEGIN PGP SIGNATURE-----', $mode, 'plugin_pgpinlinesupport');
+        $this->Lexer->addSpecialPattern('-----BEGIN PGP SIGNATURE-----[^-]+-----END PGP SIGNATURE-----', $mode, 'plugin_pgpinlinesupport');
     }
     
     // Trim Match

@@ -1,7 +1,7 @@
 base pgpinlinesupport
 author Georg Schmidt
 email  gs-develop@gs-sys.de
-date   2019-01-07
+date   2023-03-12
 name   PGP-Inline-Support
 desc   This plugin enables support of using inline pgp encryption.
 url    https://www.dokuwiki.org/plugin:pgpinlinesupport
